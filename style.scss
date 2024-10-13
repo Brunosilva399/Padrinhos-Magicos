@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter',sans-serif;
+    max-width: auto;
+}
+
+header{
+    background-color: #111111;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+
+section{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+
+    button{
+        color: #fff;
+        border: none;
+        font-size: 32px;
+        padding: 10px;
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+    }
+
+    .botaoVermelho{
+        background-color: red;
+    }
+
+    .botaoPreto{
+        background-color: transparent;
+        border: solid 1px #fff;
+        width: 130px;
+    }
+}
+
+}
+
+button:hover{
+    transform: scale(1.03);
+}
+
+.tituloEpisodios{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+
+    h2{
+        font-size: 60px;
+    }
+
+    h4{
+        font-size: 40px;
+    }
+}
+
+main{
+    background-color: #181818;
+    color: #fff;
+    height: 110vh;
+}
+
+.episodios{
+    display: flex;
+    justify-content: space-evenly;
+    img{
+        transition: transform 0.5s ease;
+        width: 380px;
+    }
+
+    section{
+        width: 30%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        h3{
+            font-size: 30px;
+        }
+
+        p{
+            font-size: 20px;
+        }
+    }
+}
+
+.episodios img:hover{
+    transform: scale(1.05);
+}
+
+footer{
+    background-color: #111111;
+    height: 17vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    p{
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 20px;
+    }
+}
